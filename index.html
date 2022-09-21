@@ -17,24 +17,32 @@
 
     #message-container {
       width: 80%;
-      max-width: 1200px;
+      max-width: 200px;
+      
     }
 
     #message-container div {
       background-color: #CCC;
-      padding: 5px;
+      padding: 8px;
+      margin: 3px;
+      /* border: 2px black solid; */
+      border-radius: 8px;
+      font-family: Arial;
+      max-height: 500px;
+      overflow: scroll;
     }
 
     #message-container div:nth-child(2n) {
-      background-color: #FFF;
+      background-color: rgb(32, 62, 209);
+      color: white;
     }
 
     #send-container {
       position: fixed;
       padding-bottom: 30px;
-      bottom: 0;
+      bottom: 100px;
       background-color: white;
-      max-width: 1200px;
+      max-width: 200px;
       width: 80%;
       display: flex;
     }
